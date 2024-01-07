@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Angular Default Pipes</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['currency-pipe']">Currency</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['date-pipe']">Date</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['decimal-pipe']">Decimal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['json-pipe']">json</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['lowercase-pipe']">Lowercase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['percent-pipe']">Percent</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['uppercase-pipe']">Uppercase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['slice-pipe']">Slice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['titlecase-pipe']">Titlecase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['async-pipe']">Async</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['keyvalue-pipe']">Keyvalue</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['custom-pipe']">Custom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['i18nselect-pipe']">i18nSelect</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['i18nplural-pipe']">i18nPlural</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container"><router-outlet></router-outlet></div>

@@ -1,0 +1,8 @@
+{
+    "welcomeMessage": {
+      "student": "Hoş geldin, Öğrenci!",
+      "teacher": "Hoş geldin, Öğretmen!",
+      "guest": "Hoş geldin, Misafir!"
+    }
+  }
+  

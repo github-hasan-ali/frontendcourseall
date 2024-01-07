@@ -1,0 +1,21 @@
+<div>
+    <p>
+      Burada {{ itemCount }} öğe var.
+    </p>
+    <p>
+      {{ itemCount | i18nPlural: { '=0': 'Hiç öğe yok.', '=1': 'Bir öğe var.', other: '# öğe var.' } }}
+    </p>
+    <button (click)="increment()">Öğe Ekle</button>
+    <button (click)="decrement()">Öğe Çıkar</button>
+  </div>
+
+  <div>
+    <p>
+      There are {{ itemCount }} items here.
+    </p>
+    <p>
+      {{ itemCount | i18nPlural: { '=0': 'No items.', '=1': 'One item.', other: '# items.' } }}
+    </p>
+    <button (click)="increment()">Add Item</button>
+    <button (click)="decrement()">Remove Item</button>
+  </div>

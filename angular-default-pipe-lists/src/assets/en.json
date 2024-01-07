@@ -1,0 +1,8 @@
+{
+    "welcomeMessage": {
+      "student": "Welcome, Student!",
+      "teacher": "Welcome, Teacher!",
+      "guest": "Welcome, Guest!"
+    }
+  }
+  

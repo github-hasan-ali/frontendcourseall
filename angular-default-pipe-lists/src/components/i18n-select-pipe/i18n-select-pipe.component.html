@@ -1,0 +1,14 @@
+<div>
+    <p>{{ userType | i18nSelect: welcomeMessages }}</p>
+    <button (click)="setUserType('student')">Student</button>
+    <button (click)="setUserType('teacher')">Teacher</button>
+    <button (click)="setUserType('guest')">Guest</button>
+  </div>
+
+  <div>
+    <h3>Türkçe</h3>
+    <p>{{ kullanici | i18nSelect: hosgeldinmesajlari }}</p>
+    <button (click)="setKullanici('Öğrenci')">Öğrenci</button>
+    <button (click)="setKullanici('Öğretmen')">Öğretmen</button>
+    <button (click)="setKullanici('Misafir')">Misafir</button>
+  </div>
